@@ -44,8 +44,11 @@
     <!-- LOGIN LAYER -->
     <div id="login-overlay" class="fixed inset-0 bg-slate-900/95 backdrop-blur-sm z-[100] flex items-center justify-center transition-all duration-500">
         <div class="bg-white p-10 rounded-3xl shadow-2xl w-[400px] text-center border border-slate-100">
-            <div class="w-20 h-20 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 rotate-3 shadow-xl">
+            <!-- <div class="w-20 h-20 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 rotate-3 shadow-xl">
                 <i class="fa-solid fa-motorcycle text-4xl text-white -rotate-3"></i>
+            </div> -->
+            <div class="flex justify-center mb-6">
+                <img src="Logo.png" alt="MotoCare Logo" class="w-24 h-24 object-contain">
             </div>
             <h2 class="text-2xl font-black text-slate-800">MotoCare Login</h2>
             <p class="text-slate-500 mb-6 mt-1 text-sm">Sistem Manajemen Bengkel</p>
@@ -63,8 +66,8 @@
     <!-- SIDEBAR -->
     <aside class="w-72 bg-slate-900 flex flex-col h-full shadow-2xl z-10 shrink-0">
         <div class="p-8 flex items-center gap-4">
-            <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/50">
-                <i class="fa-solid fa-screwdriver-wrench text-white"></i>
+            <div class="bg-white p-1 rounded-xl backdrop-blur-sm border border-white/20">
+                <img src="Logo.png" alt="Logo MotoCare" class="w-10 h-10 object-contain">
             </div>
             <div>
                 <h1 class="text-white font-black tracking-tight text-xl leading-tight">MOTOCARE</h1>
@@ -96,7 +99,7 @@
             </button>
         </nav>
         <div class="p-6">
-            <button onclick="app.logout()" class="w-full p-4 bg-slate-800 text-red-400 font-bold rounded-xl text-sm hover:bg-red-500 hover:text-white transition-all"><i class="fa-solid fa-power-off mr-2"></i> Keluar</button>
+            <button onclick="app.logout()" class="w-full p-4 bg-slate-800 text-red-400 font-bold rounded-xl text-sm hover:bg-red-500 hover:text-white transition-all"><i class="fa-solid fa-sign-out-alt text-lg"></i> Keluar</button>
         </div>
     </aside>
 
